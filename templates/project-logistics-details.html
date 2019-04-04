@@ -1,0 +1,122 @@
+{%extends "base.html" %}
+
+{%block content%}
+
+        <!--================Home Banner Area =================-->
+        <section class="banner_area">
+            <div class="banner_inner d-flex align-items-center">
+            	<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+				<div class="container">
+					<div class="banner_content text-center">
+						<h2>AIS Logistics</h2>
+						<div class="project_detail">
+	             <p>A logistics management system to efficiently manage the delivery operation and resource allocation (Drivers and Fleets).
+                 The platform is also able to track the fleet location in real time, collect proof of delivery and provide the customers with
+                 status updates.</p>
+               <!-- <a href="https://www.smilesmith.dental/sg/" target="_blank">www.smilesmith.dental</a> -->
+						</div>
+
+					</div>
+				</div>
+            </div>
+        </section>
+        <!--================End Home Banner Area =================-->
+
+        <!--================Portfolio Details Area =================-->
+        <section class="portfolio_details_area p_120">
+        	<div class="container">
+        		<div class="portfolio_details_inner">
+              <img class="img-fluid" src="{{url_for('static',filename = 'img/projects/projects-2-title.jpg')}}" alt="">
+              <div class="portfolio_center_text">
+                <h4>My Role</h4>
+                <p>I was hired as a freelance product manager by the company directors to come with a tech solution to increase their
+                  operational efficiency. I worked with the director, fleet manager, drivers and their e-commerce client’s operation and
+                  tech team. I managed the product as it passed through the various stages of vision, user interviews, strategy, feedback and
+                  launch.</p>
+                <p>My responsibilities extended to implementing the solution since we looked into “out of box” cloud solution or APIs to make
+                  project timeline shorter. I also conducted platform demos and wrote technical documents and user guides.</p>
+                <!--<ul class= "list">
+                  <li><b>Contact Person:</b>
+                    <ul class = "list">
+                      <li><span>Company Director</span></li>
+                      <li>Mr. Muhammad Ashraf</li>
+                      <li><a href="tel:+6592723554">+65 9272 3554</a> / <a href="mailto:ashraf.syed@ais-gf.com">ashraf.syed@ais-gf.com</a></li>
+                    </ul>
+                  </li>
+                </ul>-->
+
+                <ul class= "list">
+                  <li><b>Contact Person:</b>
+                    <ul class = "list">
+                      <li><span>Mr. Muhammad Ashraf</span><br>Company Director<br>
+                      <a href="tel:+6592723554">+65 9272 3554</a> / <a href="mailto:ashraf.syed@ais-gf.com">ashraf.syed@ais-gf.com</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+
+      					<div class="row">
+      						<div class="col-md-6">
+      							<div class="left_img">
+      								<img class="img-fluid" src="{{url_for('static',filename = 'img/projects/fullsite2.jpg')}}" alt="">
+      							</div>
+      						</div>
+      						<div class="col-md-6">
+      							<div class="portfolio_right_text">
+      								<h4>Context</h4>
+      								<p>AIS Global Forwarders Pte Ltd is a Singapore based logistics company working with an e-commerce client to deliver
+                        heavy products ordered online to customers. Every evening, the client will provide them with a list of deliveries to be
+                        made for the next day. The list would contain the customer’s address, mobile number, selected delivery slot and order details.
+                        The AIS logistics team would enter the received information in an excel sheet.</p>
+                      <p>The next day morning, AIS will pick up the items from the e-commerce company’s warehouse, call the customers to
+                        confirm delivery schedule and plan the drivers’ delivery area and route. At the end of the day, they will collect
+                        the customer signed delivery confirmation and failed attempt details from the drivers and send an updated excel sheet
+                        back to the e-commerce company. Additionally, AIS is also required to submit a monthly delivery report to their client.</p>
+                      <h4>Inception</h4>
+                      <p>When AIS first discussed their thoughts on the product, the <b>focus was on increasing the number of deliveries made on a
+                        day and the number of on-time deliveries</b>. I started the product development from a pain point analysis to gain a deeper
+                        understanding. After a few joint meetings with the stakeholders, we managed to narrow down the core root causes.</p>
+                      <ul class="list-2">
+                        <li>Manual data entry and delivery planning.</li>
+                        <li>Drivers need to call the customers multiple
+                          times to confirm their availability and order delivery. Leads to a confusing delivery schedule.</li>
+                        <li>Unable to track the fleets’ real-time location and manage last-minute delivery changes.</li>
+                      </ul>
+
+                      <p>We structured the logistics management platform to be used by four main users – AIS Fleet Manager, AIS Drivers,
+                        E-commerce Client’s Tech Team and customers. The product was built using “out of box” cloud solutions <a href="https://jungleworks.com/tookan/features/">(Tookan)</a>,
+                        and this system enabled us to overcome the identified pain points.</p>
+
+                      <ul class = "list-2">
+                        <li><span>Fleet Manager:</span> Using centralised web application, Fleet Manager can track the fleets real-time locations, optimise routes and schedules, allocate last minute delivery and obtain daily/weekly/monthly reports.</li>
+                        <li><span>Drivers:</span> Using mobile applications, AIS drivers can receive operational alerts from the fleet manager, communicate directly with customers, quickly navigate to multiple delivery locations and collect digital signatures from the customers upon successful delivery.</li>
+                        <li><span>E-commerce Client:</span> Using RESTful API, E-commerce team can update the list of deliveries to be made, track delivery status real-time, and obtain daily and monthly delivery reports.</li>
+                        <li><span>Customers:</span> Customers can receive delivery status via SMS and track driver’s location in real time.</li>
+                      </ul>
+
+      							</div>
+      						</div>
+      					</div>
+
+
+                <div class="portfolio_center_text">
+                  <h4>Metrics</h4>
+                  <ul class="list-2">
+                    <li>Completely eliminated manual data entry work.</li>
+                    <li>Average no. of deliveries made per day increased by 30%. </li>
+                    <li>No. of deliveries made on time increased by 25%.</li>
+                  </ul>
+                  <h4>Learning Points</h4>
+                  <ul class="list-2">
+                    <li>Learned the ability to quickly absorb technical concepts and communicate them to a non-technical audience.</li>
+                    <li>Strengthened my ability to gain a deeper user understanding.</li>
+                    <li>Learned to empathise with users and have an intuition of what good and bad products look like.</li>
+                  </ul>
+                </div>
+
+            </div>
+        	</div>
+        </section>
+        <!--================End Portfolio Details Area =================-->
+
+{% endblock %}
